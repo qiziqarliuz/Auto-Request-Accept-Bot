@@ -10,9 +10,9 @@
         "Link",
         "Bot"
     ],
-    "website": "https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA",
-    "repository": "https://github.com/Aadhi000/Auto-Request-Accept-Bot",
-    "success_url": "https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA",
+    "website": "https://qiziqarli.uz",
+    "repository": "https://github.com/qiziqarliuz/Auto-Request-Accept-Bot",
+    "success_url": "https://qiziqarli.uz",
     "env": {
         "API_ID": {
             "description": "Your APP ID",
