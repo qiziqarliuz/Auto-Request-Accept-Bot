@@ -4,12 +4,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 
 pr0fess0r_99=Client(
     "𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗢𝗽𝘂𝘀𝗧𝗲𝗰𝗵𝘇",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = "5870263435:AAEKxazgZymrxgG1z-z3kpq_zYk6bJznfWw",
+    api_id = "3781962",
+    api_hash = "acddea6139b003f11066a4d6e070e29e"
 )
 
-CHAT_ID=int(os.environ.get("CHAT_ID", None))
+CHAT_ID=int(1831179319)
 TEXT=os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
 APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 
@@ -33,5 +33,5 @@ async def autoapprove(client: pr0fess0r_99, message: ChatJoinRequest):
     if APPROVED == "on":
         await client.send_message(chat_id=chat.id, text=TEXT.format(mention=user.mention, title=chat.title))       
 
-print("𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗢𝗽𝘂𝘀𝗧𝗲𝗰𝗵𝘇")
+
 pr0fess0r_99.run()
